@@ -21,7 +21,7 @@ export default function Info() {
       <Box>
         <Title>Social</Title>
         <BoxSocial>
-          <TouchableOpacity onPress={() => openUrl("https://github.com/flaviofilipe")}>
+          <TouchableOpacity onPress={() => openUrl("https://github.com/flaviofilipe/ifba-news")}>
             <AntDesign name="github" size={24} color="rgba(0, 0, 0, 0.4)" />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => openUrl("https://www.linkedin.com/in/flaviofilipedev/")}>
