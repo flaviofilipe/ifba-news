@@ -17,7 +17,7 @@ export default function FeedCard(props: Props) {
   return (
     <Box onPress={() => props.navigation.navigate('ShowNews', {news: props.news})}>
       <Link>{formatUrl(props.news.link)}</Link>
-      <Title>{props.news.title}</Title>
+      <Title>{props.news.id} - {props.news.title}</Title>
       <Content>{props.news.content.substring(0,120)}...</Content>
       <Date>{formatDate(props.news.updated_at)}</Date>
     </Box>

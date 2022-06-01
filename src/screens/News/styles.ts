@@ -5,10 +5,3 @@ export const Box = styled.View`
   padding-top: 20px ;
   padding-bottom: 20px ;
 `
-
-export const Divider = styled.View`
-  display: flex;
-  background-color: #E5E5E5 ;
-  min-width: 100%;
-  height: 5px ;
-`

@@ -9,6 +9,14 @@ Este app foi desenvolvido em React Native utilizando o Expo na linguagem Typescr
 
 Para executá-lo é necessário um emulador (android ou ios), ou um dispositivo físico.
 
+Para executar o backend local será necessário o `docker` e `docker-compose`
+
+## Instalação
+- .env: copiar arquivo `.env.example -> .env`
+- Inserir o IP da máquina onde está rodando a API do docker (máquina host). Ex: http://localhost ou http://\<IP>
+- Executar backend: 
+  
+  ```docker-compose up -d```
 
 ## Execução no Emulador
 
